@@ -10,7 +10,7 @@ echo "Nombre de connexion : $nombre_de_connexion"
 day=$(date +'%d-%m-%Y-%H-%M')
 sortie="$nombre_de_connexion-$day"
 
-echo "$nombre_de_connexion" > "$sortie"
+echo "$nombre_de_connexion" > ~/Documents/shell.exe/Job08/"$sortie"
 
 #Création du dossier Backup mkdir /home/lucy/Documents/shell.exe/Job08
 
